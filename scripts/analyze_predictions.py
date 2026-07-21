@@ -73,11 +73,17 @@ print(df.groupby("group")["actual_total_tokens"].agg(["count", "mean", "std", "m
 print(df["predicted_tokens"].value_counts())
 
 # ---- Figure 1: scatter, actual vs predicted ----
+# predicted_tokens collapses to just 2 discrete values (1200 / 1500), so a raw
+# scatter stacks dozens of points exactly on top of one another -- add a small
+# fixed-seed jitter in y so overlap density is actually visible, and lower alpha
+# so stacked points read darker instead of just occluding each other.
+rng = np.random.default_rng(42)
 fig, ax = plt.subplots(figsize=(9, 6.4), dpi=180)
 for g in group_order:
     sub = df[df["group"] == g]
-    ax.scatter(sub["actual_total_tokens"], sub["predicted_tokens"],
-               s=34, alpha=0.75, color=color_map[g], edgecolor=GROUND, linewidth=0.4, label=g)
+    y_jittered = sub["predicted_tokens"] + rng.uniform(-22, 22, size=len(sub))
+    ax.scatter(sub["actual_total_tokens"], y_jittered,
+               s=30, alpha=0.45, color=color_map[g], edgecolor=GROUND, linewidth=0.4, label=g)
 
 lims = [min(df["actual_total_tokens"].min(), df["predicted_tokens"].min()) * 0.9,
         max(df["actual_total_tokens"].max(), df["predicted_tokens"].max()) * 1.05]
@@ -86,14 +92,18 @@ ax.set_xlim(lims)
 ax.set_ylim(200, 1700)
 
 ax.set_xlabel("actual total tokens (measured, real swarm run)")
-ax.set_ylabel("predicted tokens (LLM guess, no execution)")
+ax.set_ylabel("predicted tokens (LLM guess, no execution; jittered ±22 to show overlap density)")
 ax.set_title(
     f"Does an LLM's upfront token guess track what a task actually costs?\n"
     f"n={len(df)} recursive-function test-writing tasks  —  Pearson r = {pear_r:.2f}\n"
     f"Spearman r = {spear_r:.2f} (neither significant, p > 0.1)",
     fontsize=11.5, color=INK, loc="left"
 )
-ax.legend(frameon=False, loc="upper left", fontsize=8.5, labelcolor=INK)
+# legend placed in the empty lower-right quadrant (no data there) with a solid
+# backing box, so it never sits on top of the dense y=1200/1500 rows.
+leg = ax.legend(frameon=True, loc="lower right", fontsize=8.5, labelcolor=INK,
+                 facecolor=GROUND, edgecolor=HAIR, framealpha=0.95)
+leg.get_frame().set_linewidth(0.8)
 for spine in ["top", "right"]:
     ax.spines[spine].set_visible(False)
 fig.tight_layout()
