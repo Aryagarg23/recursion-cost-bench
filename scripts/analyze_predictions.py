@@ -88,6 +88,14 @@ for g in group_order:
 lims = [min(df["actual_total_tokens"].min(), df["predicted_tokens"].min()) * 0.9,
         max(df["actual_total_tokens"].max(), df["predicted_tokens"].max()) * 1.05]
 ax.plot(lims, lims, linestyle="--", color=HOT, linewidth=1.6, label="y = x (perfect guess)")
+
+# actual best-fit line: what the LLM's guesses really do as actual cost rises
+slope, intercept = np.polyfit(df["actual_total_tokens"], df["predicted_tokens"], 1)
+fit_x = np.array(lims)
+fit_y = slope * fit_x + intercept
+ax.plot(fit_x, fit_y, linestyle="-", color=BLUE, linewidth=2.0,
+        label=f"actual fit (slope = {slope:.3f}, r = {pear_r:.2f})")
+
 ax.set_xlim(lims)
 ax.set_ylim(200, 1700)
 
