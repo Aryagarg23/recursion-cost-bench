@@ -149,3 +149,7 @@
 {"task_id": "rf-00149", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2092, "converged": false}
 {"task_id": "rf-00150", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2086, "converged": false}
 {"task_id": "rf-00151", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2034, "converged": false}
+{"task_id": "rf-00152", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 797, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00153", "iterations_attempted": 4, "iterations_to_converge": 4, "total_tokens": 2634, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00154", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2901, "converged": false}
+{"task_id": "rf-00155", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2619, "converged": false}

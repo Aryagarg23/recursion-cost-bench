@@ -44,3 +44,5 @@
 {"task_id": "rf-00145", "reviewer_tokens": 495, "reviewer_claimed_gap": true, "reviewer_valid_claim": true, "reviewer_gap_confirmed": false}
 {"task_id": "rf-00147", "reviewer_tokens": 547, "reviewer_claimed_gap": true, "reviewer_valid_claim": true, "reviewer_gap_confirmed": false}
 {"task_id": "rf-00148", "reviewer_tokens": 672, "reviewer_claimed_gap": true, "reviewer_valid_claim": false, "reviewer_gap_confirmed": false}
+{"task_id": "rf-00152", "reviewer_tokens": 487, "reviewer_claimed_gap": true, "reviewer_valid_claim": true, "reviewer_gap_confirmed": true}
+{"task_id": "rf-00153", "reviewer_tokens": 724, "reviewer_claimed_gap": true, "reviewer_valid_claim": true, "reviewer_gap_confirmed": false}
