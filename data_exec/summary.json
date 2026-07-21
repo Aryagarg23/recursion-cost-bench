@@ -1,0 +1,10 @@
+{
+  "mode": "exec",
+  "execution_enabled": true,
+  "total_tasks": 5,
+  "converged_tasks": 5,
+  "total_tokens": 46413,
+  "total_tool_calls": 22,
+  "wall_clock_s": 86.3,
+  "budget_seconds": 75
+}

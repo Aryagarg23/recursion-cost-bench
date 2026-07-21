@@ -1,8 +1,5 @@
-# Generated at runtime by scripts/run_pipeline.py -- not committed. The whole point
-# of the pipeline is that this is regeneratable (same task seeds every time); the
-# actual dataset artifacts get delivered/shared separately once a run completes.
-data/
-data_exec/
+# Human-readable run logs -- verbose, not structured data. The structured record of
+# each run lives in data/ and data_exec/, which ARE committed.
 logs/
 logs_exec/
 

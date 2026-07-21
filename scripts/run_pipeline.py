@@ -90,6 +90,7 @@ def worker_prompt_exec(task, prior_failure=None):
 def run_worker(task):
     """No-execution worker: bare chat completion, retried up to MAX_WORKER_ITERS times."""
     attempts = []
+    transcripts = []
     prior_failure = None
     converged = False
     test_code = None
@@ -101,16 +102,22 @@ def run_worker(task):
         attempts.append(resp["telemetry_row"])
         if not resp["ok"]:
             prior_failure = f"LLM call failed: {resp['error']}"
+            transcripts.append({"outer_iteration": i, "messages": [{"role": "user", "content": prompt}],
+                                 "verdict": {"call_error": resp["error"]}})
             continue
         code = extract_code(resp["text"])
         verdict = grade(task["function_source"], code)
         all_pass = bool(verdict) and all(v == "pass" for v in verdict.values()) and not any(
             k in verdict for k in ("no_tests", "import_error", "timeout", "crash", "parse_error"))
+        transcripts.append({"outer_iteration": i,
+                             "messages": [{"role": "user", "content": prompt},
+                                          {"role": "assistant", "content": resp["text"]}],
+                             "verdict": verdict})
         if all_pass:
             converged, test_code = True, code
             break
         prior_failure = json.dumps(verdict)[:1500]
-    return attempts, converged, test_code, 0, outer_used
+    return attempts, converged, test_code, 0, outer_used, transcripts
 
 def run_worker_exec(task):
     """Execution-enabled worker: gets a run_python tool via native OpenAI-style
@@ -122,6 +129,7 @@ def run_worker_exec(task):
     test_code = None
     tool_calls_used = 0
     outer_used = 0
+    transcripts = []
     for outer in range(1, MAX_WORKER_ITERS + 1):
         outer_used = outer
         messages = [{"role": "user", "content": worker_prompt_exec(task, prior_failure)}]
@@ -151,19 +159,24 @@ def run_worker_exec(task):
             break
         if call_failed:
             prior_failure = f"LLM call failed: {resp.get('error')}"
+            transcripts.append({"outer_iteration": outer, "messages": messages,
+                                 "verdict": {"call_error": resp.get("error")}})
             continue
         if final_text is None:
             prior_failure = "exhausted tool-call rounds without a final answer"
+            transcripts.append({"outer_iteration": outer, "messages": messages,
+                                 "verdict": {"exhausted_tool_rounds": True}})
             continue
         code = extract_code(final_text)
         verdict = grade(task["function_source"], code)
         all_pass = bool(verdict) and all(v == "pass" for v in verdict.values()) and not any(
             k in verdict for k in ("no_tests", "import_error", "timeout", "crash", "parse_error"))
+        transcripts.append({"outer_iteration": outer, "messages": messages, "verdict": verdict})
         if all_pass:
             converged, test_code = True, code
             break
         prior_failure = json.dumps(verdict)[:1500]
-    return attempts, converged, test_code, tool_calls_used, outer_used
+    return attempts, converged, test_code, tool_calls_used, outer_used, transcripts
 
 def run_mutation(task, test_code):
     caught, total, details = 0, len(task["mutants"]), []
@@ -210,6 +223,8 @@ def run_reviewer(task, test_code, mutation_caught, mutation_total):
         "task_id": task["task_id"], "reviewer_tokens": resp["telemetry_row"]["total_tokens"],
         "reviewer_claimed_gap": claimed, "reviewer_valid_claim": valid_claim,
         "reviewer_gap_confirmed": gap_confirmed,
+        "alt_code": code if claimed else None,
+        "raw_reviewer_text": text,
     }
 
 CSV_FIELDS = ["task_id", "execution_enabled", "function_name", "recursion_pattern", "branching_factor",
@@ -260,6 +275,7 @@ def main():
     attempts_path = os.path.join(data_dir, "attempts.jsonl")
     results_path = os.path.join(data_dir, "tasks_results.jsonl")
     review_path = os.path.join(data_dir, "review.jsonl")
+    transcripts_path = os.path.join(data_dir, "transcripts.jsonl")
     log_path = os.path.join(log_dir, "run.log")
 
     worker_fn = run_worker_exec if execution_enabled else run_worker
@@ -281,12 +297,14 @@ def main():
         log(f"{task['task_id']} ({task['recursion_pattern']}, {task['expected_big_o']}, "
             f"{task['difficulty_tier']}) starting", log_path)
         try:
-            attempts, converged, test_code, num_tool_calls, outer_used = worker_fn(task)
+            attempts, converged, test_code, num_tool_calls, outer_used, transcripts = worker_fn(task)
         except Exception as e:
             log(f"{task['task_id']} worker crashed: {e!r}\n{traceback.format_exc()[-800:]}", log_path)
             continue
         for a in attempts:
             append_jsonl(attempts_path, a)
+        for t in transcripts:
+            append_jsonl(transcripts_path, {"task_id": task["task_id"], "execution_enabled": execution_enabled, **t})
         total_tokens = sum(a.get("total_tokens", 0) for a in attempts)
         result = {
             "task_id": task["task_id"], "execution_enabled": execution_enabled,
@@ -294,6 +312,7 @@ def main():
             "iterations_to_converge": outer_used if converged else None,
             "num_llm_calls": len(attempts),
             "num_tool_calls": num_tool_calls, "total_tokens": total_tokens, "converged": converged,
+            "final_test_code": test_code,
         }
         if converged:
             try:

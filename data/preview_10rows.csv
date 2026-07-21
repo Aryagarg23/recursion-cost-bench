@@ -1,0 +1,11 @@
+task_id,function_name,recursion_pattern,branching_factor,expected_big_o,difficulty_tier,input_domain,iterations_attempted,iterations_to_converge,converged,total_tokens,mutation_caught,mutation_total,mutation_score,reviewer_claimed_gap,reviewer_valid_claim,reviewer_gap_confirmed,reviewer_tokens
+rf-00001,f_00001,tail,1,O(n),medium,"n: int, 0-50",4,,False,2034,,,,,,,
+rf-00002,f_00002,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,945,3,3,3/3,True,True,True,606
+rf-00003,f_00003,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,1715,,,,,,,
+rf-00004,f_00004,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,2684,,,,,,,
+rf-00005,f_00005,linear,1,O(n),high,"n: int, 0-120",4,,False,2245,,,,,,,
+rf-00006,f_00006,tail,1,O(n),high,"n: int, 0-120",4,,False,2027,,,,,,,
+rf-00007,f_00007,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,993,3,3,3/3,True,False,False,534
+rf-00008,f_00008,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",4,,False,1746,,,,,,,
+rf-00009,f_00009,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2432,,,,,,,
+rf-00010,f_00010,linear,1,O(n),high,"n: int, 0-250",4,,False,1609,,,,,,,
