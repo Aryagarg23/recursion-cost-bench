@@ -1,0 +1,257 @@
+task_id,recursion_pattern,branching_factor,expected_big_o,difficulty_tier,input_domain,actual_total_tokens,converged,iterations_attempted,predicted_v1_bare,predicted_v2_rich,v2_finished,v2_prediction_cost_tokens
+rf-00001,tail,1,O(n),medium,"n: int, 0-50",2034,False,,1200,120,True,451
+rf-00002,binary-tree,2,O(phi^n),high,"n: int, 0-18",945,True,,1500,250,True,400
+rf-00003,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1715,False,,1200,120,True,436
+rf-00004,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",2684,False,,1500,180,True,423
+rf-00005,linear,1,O(n),high,"n: int, 0-120",2245,False,,1200,150,True,401
+rf-00006,tail,1,O(n),high,"n: int, 0-120",2027,False,,1500,150,True,408
+rf-00007,binary-tree,2,O(phi^n),medium,"n: int, 0-10",993,True,,1200,250,True,448
+rf-00008,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1746,False,,1200,250,True,433
+rf-00009,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2432,False,,1200,150,True,418
+rf-00010,linear,1,O(n),high,"n: int, 0-250",1609,False,,1200,250,True,409
+rf-00011,tail,1,O(n),high,"n: int, 0-120",2034,False,,1200,150,True,385
+rf-00012,binary-tree,2,O(phi^n),medium,"n: int, 0-14",1080,True,,1500,250,True,388
+rf-00013,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2988,False,,1200,250,True,411
+rf-00014,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",1898,False,,1500,150,True,409
+rf-00015,linear,1,O(n),medium,"n: int, 0-50",2300,False,,1200,150,True,394
+rf-00016,tail,1,O(n),high,"n: int, 0-120",2012,False,,1500,250,True,460
+rf-00017,binary-tree,2,O(phi^n),medium,"n: int, 0-14",1976,False,,1500,150,True,502
+rf-00018,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2237,False,,1200,150,True,413
+rf-00019,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2500,False,,1200,150,True,414
+rf-00020,linear,1,O(n),medium,"n: int, 0-50",2016,False,,1500,180,True,382
+rf-00021,tail,1,O(n),high,"n: int, 0-250",1794,False,,1500,280,True,415
+rf-00022,binary-tree,2,O(phi^n),medium,"n: int, 0-10",1078,True,,1500,250,True,448
+rf-00023,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1047,True,,1200,150,True,401
+rf-00024,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",3567,False,,1200,450,True,426
+rf-00025,linear,1,O(n),medium,"n: int, 0-50",1565,False,,1200,150,True,373
+rf-00026,tail,1,O(n),medium,"n: int, 0-50",2041,False,,1500,120,True,362
+rf-00027,binary-tree,2,O(phi^n),medium,"n: int, 0-10",975,True,,1500,120,True,457
+rf-00028,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1047,True,,1500,250,True,428
+rf-00029,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",1192,True,,1200,150,True,420
+rf-00030,linear,1,O(n),medium,"n: int, 0-50",2114,False,,1200,150,True,381
+rf-00031,tail,1,O(n),high,"n: int, 0-250",2015,False,,1500,180,True,399
+rf-00032,binary-tree,2,O(phi^n),medium,"n: int, 0-14",927,True,,1500,250,True,382
+rf-00033,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2483,False,,1500,250,True,435
+rf-00034,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2885,True,,1500,250,True,412
+rf-00035,linear,1,O(n),high,"n: int, 0-250",2048,False,,1500,120,True,408
+rf-00036,tail,1,O(n),high,"n: int, 0-120",1996,False,,1200,250,True,409
+rf-00037,binary-tree,2,O(phi^n),medium,"n: int, 0-10",989,True,,1200,250,True,414
+rf-00038,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",824,True,,1500,120,True,475
+rf-00039,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2500,False,,1200,120,True,402
+rf-00040,linear,1,O(n),high,"n: int, 0-120",876,True,,1200,400,True,386
+rf-00041,tail,1,O(n),high,"n: int, 0-120",2034,False,,1200,150,True,384
+rf-00042,binary-tree,2,O(phi^n),medium,"n: int, 0-10",942,True,,1500,150,True,453
+rf-00043,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2108,True,,1200,180,True,422
+rf-00044,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2285,False,,1200,280,True,397
+rf-00045,linear,1,O(n),high,"n: int, 0-250",814,True,,1200,150,True,403
+rf-00046,tail,1,O(n),high,"n: int, 0-120",1951,False,,1200,250,True,413
+rf-00047,binary-tree,2,O(phi^n),medium,"n: int, 0-10",1438,True,,1500,300,True,468
+rf-00048,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1724,False,,1200,250,True,445
+rf-00049,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",3224,False,,1200,150,True,415
+rf-00050,linear,1,O(n),high,"n: int, 0-120",2064,False,,1200,150,True,399
+rf-00051,tail,1,O(n),medium,"n: int, 0-50",2032,False,,1200,150,True,437
+rf-00052,binary-tree,2,O(phi^n),medium,"n: int, 0-10",1469,True,,1200,150,True,456
+rf-00053,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1010,True,,1200,150,True,425
+rf-00054,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",1285,True,,1200,250,True,413
+rf-00055,linear,1,O(n),medium,"n: int, 0-50",2109,False,,1200,280,True,419
+rf-00056,tail,1,O(n),medium,"n: int, 0-50",1977,False,,1200,120,True,390
+rf-00057,binary-tree,2,O(phi^n),high,"n: int, 0-18",1706,False,,1200,120,True,387
+rf-00058,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1691,False,,1200,120,True,403
+rf-00059,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2420,False,,1200,180,True,447
+rf-00060,linear,1,O(n),medium,"n: int, 0-50",1582,False,,1200,120,True,370
+rf-00061,tail,1,O(n),high,"n: int, 0-250",2083,False,,1200,280,True,418
+rf-00062,binary-tree,2,O(phi^n),medium,"n: int, 0-10",993,True,,1200,150,True,454
+rf-00063,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2453,False,,1200,150,True,452
+rf-00064,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",1192,True,,1200,250,True,407
+rf-00065,linear,1,O(n),high,"n: int, 0-250",1997,False,,1200,150,True,387
+rf-00066,tail,1,O(n),high,"n: int, 0-120",2041,False,,1200,150,True,390
+rf-00067,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2000,False,,1500,200,True,490
+rf-00068,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1122,True,,1200,150,True,440
+rf-00069,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",2575,False,,1500,200,True,423
+rf-00070,linear,1,O(n),high,"n: int, 0-120",2060,False,,1200,250,True,388
+rf-00071,tail,1,O(n),medium,"n: int, 0-50",2041,False,,1200,250,True,382
+rf-00072,binary-tree,2,O(phi^n),medium,"n: int, 0-14",898,True,,1200,120,True,401
+rf-00073,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1209,True,,1500,150,True,430
+rf-00074,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2073,False,,1500,450,True,423
+rf-00075,linear,1,O(n),high,"n: int, 0-120",1872,False,,1500,180,True,402
+rf-00076,tail,1,O(n),high,"n: int, 0-120",1908,False,,1200,250,True,431
+rf-00077,binary-tree,2,O(phi^n),high,"n: int, 0-18",1080,True,,1500,120,True,406
+rf-00078,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2570,False,,1500,150,True,431
+rf-00079,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",1192,True,,1200,450,True,402
+rf-00080,linear,1,O(n),high,"n: int, 0-120",1990,False,,1200,250,True,405
+rf-00081,tail,1,O(n),high,"n: int, 0-120",2041,False,,1200,150,True,388
+rf-00082,binary-tree,2,O(phi^n),medium,"n: int, 0-10",895,True,,1200,250,True,445
+rf-00083,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",1061,True,,1500,250,True,459
+rf-00084,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2284,False,,1500,150,True,411
+rf-00085,linear,1,O(n),high,"n: int, 0-250",2094,False,,1200,120,True,419
+rf-00086,tail,1,O(n),high,"n: int, 0-250",2042,False,,1200,250,True,382
+rf-00087,binary-tree,2,O(phi^n),medium,"n: int, 0-10",989,True,,1500,150,True,442
+rf-00088,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1035,True,,1500,150,True,414
+rf-00089,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",2339,False,,1500,250,True,420
+rf-00090,linear,1,O(n),high,"n: int, 0-120",2232,False,,1500,350,True,403
+rf-00091,tail,1,O(n),high,"n: int, 0-120",2004,False,,1200,250,True,461
+rf-00092,binary-tree,2,O(phi^n),high,"n: int, 0-18",2049,False,,1500,150,True,409
+rf-00093,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2804,False,,1200,150,True,414
+rf-00094,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2543,False,,1500,150,True,418
+rf-00095,linear,1,O(n),medium,"n: int, 0-50",2148,False,,1200,120,True,385
+rf-00096,tail,1,O(n),high,"n: int, 0-250",2279,False,,1200,150,True,435
+rf-00097,binary-tree,2,O(phi^n),high,"n: int, 0-18",991,True,,1200,120,True,399
+rf-00098,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2047,False,,1200,20,True,414
+rf-00099,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",2422,False,,1200,250,True,396
+rf-00100,linear,1,O(n),medium,"n: int, 0-50",2183,False,,1200,150,True,399
+rf-00101,tail,1,O(n),high,"n: int, 0-120",2009,False,,1200,250,True,430
+rf-00102,binary-tree,2,O(phi^n),high,"n: int, 0-18",993,True,,1200,120,True,393
+rf-00103,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2126,False,,1500,250,True,464
+rf-00104,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",2865,False,,1200,120,True,427
+rf-00105,linear,1,O(n),medium,"n: int, 0-50",1974,False,,1200,280,True,401
+rf-00106,tail,1,O(n),high,"n: int, 0-120",1944,False,,1200,150,True,410
+rf-00107,binary-tree,2,O(phi^n),high,"n: int, 0-18",895,True,,1500,150,True,391
+rf-00108,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",1896,False,,1200,120,True,451
+rf-00109,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",2374,False,,1200,120,True,400
+rf-00110,linear,1,O(n),high,"n: int, 0-120",2077,False,,1200,180,True,424
+rf-00111,tail,1,O(n),medium,"n: int, 0-50",2041,False,,1200,140,True,381
+rf-00112,binary-tree,2,O(phi^n),medium,"n: int, 0-14",1039,True,,1500,150,True,396
+rf-00113,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",1600,False,,1500,140,True,440
+rf-00114,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2298,False,,1200,120,True,409
+rf-00115,linear,1,O(n),high,"n: int, 0-120",2054,False,,1200,250,True,389
+rf-00116,tail,1,O(n),high,"n: int, 0-250",2030,False,,1200,250,True,449
+rf-00117,binary-tree,2,O(phi^n),medium,"n: int, 0-14",912,True,,1200,120,True,391
+rf-00118,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",942,True,,1200,150,True,439
+rf-00119,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2570,False,,1500,150,True,422
+rf-00120,linear,1,O(n),high,"n: int, 0-250",2086,False,,1500,180,True,419
+rf-00121,tail,1,O(n),high,"n: int, 0-250",2298,False,,1200,120,True,393
+rf-00122,binary-tree,2,O(phi^n),medium,"n: int, 0-14",930,True,,1200,300,True,396
+rf-00123,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2261,False,,1200,120,True,411
+rf-00124,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",1192,True,,1500,150,True,404
+rf-00125,linear,1,O(n),medium,"n: int, 0-50",2332,False,,1200,120,True,357
+rf-00126,tail,1,O(n),high,"n: int, 0-120",1996,False,,1500,250,True,414
+rf-00127,binary-tree,2,O(phi^n),medium,"n: int, 0-14",978,True,,1500,250,True,396
+rf-00128,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",1644,False,,1200,120,True,468
+rf-00129,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2759,False,,1200,120,True,402
+rf-00130,linear,1,O(n),high,"n: int, 0-250",2546,False,,1200,150,True,396
+rf-00131,tail,1,O(n),medium,"n: int, 0-50",2028,False,,1500,150,True,372
+rf-00132,binary-tree,2,O(phi^n),high,"n: int, 0-18",979,True,,1200,150,True,398
+rf-00133,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1969,False,,1200,120,True,447
+rf-00134,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2218,False,,1500,250,True,406
+rf-00135,linear,1,O(n),high,"n: int, 0-250",2018,False,,1200,200,True,377
+rf-00136,tail,1,O(n),medium,"n: int, 0-50",2015,False,,1500,150,True,411
+rf-00137,binary-tree,2,O(phi^n),medium,"n: int, 0-14",1063,True,,1200,150,True,384
+rf-00138,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2419,False,,1500,120,True,397
+rf-00139,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2700,False,,1200,180,True,397
+rf-00140,linear,1,O(n),high,"n: int, 0-120",1995,False,,1200,180,True,412
+rf-00141,tail,1,O(n),high,"n: int, 0-120",2034,False,,1200,250,True,441
+rf-00142,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2007,False,,1500,120,True,457
+rf-00143,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1092,True,,1200,120,True,401
+rf-00144,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",3628,False,,1200,150,True,411
+rf-00145,linear,1,O(n),medium,"n: int, 0-50",1014,True,,1200,280,True,378
+rf-00146,tail,1,O(n),high,"n: int, 0-250",2263,False,,1200,150,True,367
+rf-00147,binary-tree,2,O(phi^n),medium,"n: int, 0-10",956,True,,1500,250,True,444
+rf-00148,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1040,True,,1200,120,True,461
+rf-00149,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2092,False,,1500,150,True,413
+rf-00150,linear,1,O(n),medium,"n: int, 0-50",2086,False,,1200,250,True,407
+rf-00151,tail,1,O(n),medium,"n: int, 0-50",2034,False,,1200,150,True,371
+rf-00152,binary-tree,2,O(phi^n),high,"n: int, 0-18",797,True,,1200,120,True,412
+rf-00153,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2634,True,,1200,120,True,460
+rf-00154,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2901,False,,1200,150,True,417
+rf-00155,linear,1,O(n),medium,"n: int, 0-50",2619,False,,1200,150,True,420
+rf-00156,tail,1,O(n),high,"n: int, 0-250",1908,False,,1200,280,True,419
+rf-00157,binary-tree,2,O(phi^n),high,"n: int, 0-18",944,True,,1200,150,True,412
+rf-00158,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2224,True,,1200,150,True,419
+rf-00159,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2718,False,,1200,250,True,409
+rf-00160,linear,1,O(n),high,"n: int, 0-120",2248,False,,1200,180,True,378
+rf-00161,tail,1,O(n),high,"n: int, 0-250",960,True,,1200,150,True,384
+rf-00162,binary-tree,2,O(phi^n),medium,"n: int, 0-14",797,True,,1500,250,True,406
+rf-00163,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2486,False,,1200,180,True,450
+rf-00164,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2557,False,,1200,250,True,420
+rf-00165,linear,1,O(n),medium,"n: int, 0-50",2640,False,,1200,280,True,410
+rf-00166,tail,1,O(n),high,"n: int, 0-250",2015,False,,1500,150,True,383
+rf-00167,binary-tree,2,O(phi^n),high,"n: int, 0-18",1974,False,,1500,250,True,382
+rf-00168,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2401,False,,1200,150,True,410
+rf-00169,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",3259,True,,1200,180,True,419
+rf-00170,linear,1,O(n),medium,"n: int, 0-50",1559,False,,1500,120,True,397
+rf-00171,tail,1,O(n),high,"n: int, 0-250",2035,False,,1200,150,True,459
+rf-00172,binary-tree,2,O(phi^n),high,"n: int, 0-18",927,True,,1500,150,True,396
+rf-00173,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2633,False,,1200,200,True,433
+rf-00174,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2736,False,,1200,120,True,420
+rf-00175,linear,1,O(n),high,"n: int, 0-120",2437,False,,1200,150,True,393
+rf-00176,tail,1,O(n),high,"n: int, 0-250",2620,False,,1200,400,True,457
+rf-00177,binary-tree,2,O(phi^n),medium,"n: int, 0-14",985,True,,1200,120,True,399
+rf-00178,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1188,True,,1200,150,True,423
+rf-00179,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2605,False,,1200,120,True,398
+rf-00180,linear,1,O(n),high,"n: int, 0-120",2057,False,,1500,150,True,388
+rf-00181,tail,1,O(n),high,"n: int, 0-120",1923,False,,1200,250,True,424
+rf-00182,binary-tree,2,O(phi^n),high,"n: int, 0-18",2026,False,,1500,250,True,395
+rf-00183,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2398,False,,1200,120,True,427
+rf-00184,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2576,False,,1500,150,True,424
+rf-00185,linear,1,O(n),high,"n: int, 0-120",351,True,,1200,250,True,390
+rf-00186,tail,1,O(n),high,"n: int, 0-120",2017,False,,1200,250,True,381
+rf-00187,binary-tree,2,O(phi^n),high,"n: int, 0-18",898,True,,1200,1200,True,419
+rf-00188,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2245,False,,1500,150,True,411
+rf-00189,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",3231,False,,1200,120,True,400
+rf-00190,linear,1,O(n),high,"n: int, 0-120",2099,False,,1500,450,True,413
+rf-00191,tail,1,O(n),high,"n: int, 0-120",2287,False,,1200,180,True,449
+rf-00192,binary-tree,2,O(phi^n),high,"n: int, 0-18",946,True,,1500,150,True,395
+rf-00193,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2250,False,,1200,45,True,428
+rf-00194,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",1999,False,,1500,150,True,424
+rf-00195,linear,1,O(n),high,"n: int, 0-120",2048,False,,1200,280,True,395
+rf-00196,tail,1,O(n),medium,"n: int, 0-50",1982,False,,1200,150,True,419
+rf-00197,binary-tree,2,O(phi^n),high,"n: int, 0-18",987,True,,1500,140,True,387
+rf-00198,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",964,True,,1200,120,True,415
+rf-00199,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2926,False,,1200,280,True,423
+rf-00200,linear,1,O(n),high,"n: int, 0-120",1933,False,,1200,150,True,408
+rf-00201,tail,1,O(n),medium,"n: int, 0-50",1794,False,,1200,150,True,383
+rf-00202,binary-tree,2,O(phi^n),medium,"n: int, 0-14",934,True,,1200,120,True,388
+rf-00203,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2735,False,,1200,180,True,437
+rf-00204,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",3247,False,,1200,450,True,415
+rf-00205,linear,1,O(n),high,"n: int, 0-250",1776,False,,1200,150,True,413
+rf-00206,tail,1,O(n),high,"n: int, 0-120",1951,False,,1500,150,True,379
+rf-00207,binary-tree,2,O(phi^n),high,"n: int, 0-18",1947,False,,1500,250,True,389
+rf-00208,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2924,False,,1500,150,True,428
+rf-00209,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2648,False,,1200,120,True,397
+rf-00210,linear,1,O(n),medium,"n: int, 0-50",2057,False,,1200,150,True,361
+rf-00211,tail,1,O(n),high,"n: int, 0-120",2041,False,,1500,250,True,377
+rf-00212,binary-tree,2,O(phi^n),medium,"n: int, 0-14",1080,True,,1200,120,True,403
+rf-00213,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1074,True,,1200,120,True,401
+rf-00214,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",3663,False,,1200,120,True,428
+rf-00215,linear,1,O(n),high,"n: int, 0-120",1880,False,,1200,240,True,411
+rf-00216,tail,1,O(n),high,"n: int, 0-250",1956,False,,1500,120,True,425
+rf-00217,binary-tree,2,O(phi^n),medium,"n: int, 0-10",991,True,,1200,250,True,459
+rf-00218,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1790,False,,1500,120,True,462
+rf-00219,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",3950,False,,1200,180,True,407
+rf-00220,linear,1,O(n),high,"n: int, 0-120",2735,False,,1500,250,True,389
+rf-00221,tail,1,O(n),medium,"n: int, 0-50",1919,False,,1500,150,True,361
+rf-00222,binary-tree,2,O(phi^n),high,"n: int, 0-18",977,True,,1200,120,True,415
+rf-00223,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1021,True,,1500,150,True,442
+rf-00224,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2875,False,,1500,250,True,431
+rf-00225,linear,1,O(n),high,"n: int, 0-120",2104,False,,1200,150,True,407
+rf-00226,tail,1,O(n),high,"n: int, 0-120",1893,False,,1200,450,True,382
+rf-00227,binary-tree,2,O(phi^n),high,"n: int, 0-18",989,True,,1200,120,True,415
+rf-00228,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2264,False,,1500,150,True,427
+rf-00229,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2972,False,,1200,200,True,429
+rf-00230,linear,1,O(n),high,"n: int, 0-250",1882,False,,1200,120,True,411
+rf-00231,tail,1,O(n),high,"n: int, 0-120",2034,False,,1200,450,True,390
+rf-00232,binary-tree,2,O(phi^n),high,"n: int, 0-18",910,True,,1500,150,True,405
+rf-00233,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",1005,True,,1200,150,True,460
+rf-00234,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",3259,False,,1200,150,True,409
+rf-00235,linear,1,O(n),high,"n: int, 0-250",1912,False,,1200,350,True,404
+rf-00236,tail,1,O(n),high,"n: int, 0-250",1951,False,,1500,250,True,392
+rf-00237,binary-tree,2,O(phi^n),medium,"n: int, 0-10",797,True,,1500,180,True,416
+rf-00238,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",958,True,,1200,150,True,499
+rf-00239,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2394,False,,1500,250,True,405
+rf-00240,linear,1,O(n),high,"n: int, 0-250",2571,False,,1200,180,True,410
+rf-00241,tail,1,O(n),high,"n: int, 0-250",1969,False,,1500,120,True,374
+rf-00242,binary-tree,2,O(phi^n),medium,"n: int, 0-10",948,True,,1200,250,True,404
+rf-00243,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1173,True,,1200,120,True,461
+rf-00244,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",3139,False,,1500,120,True,398
+rf-00245,linear,1,O(n),high,"n: int, 0-250",2099,False,,1200,120,True,391
+rf-00246,tail,1,O(n),medium,"n: int, 0-50",1787,False,,1500,150,True,420
+rf-00247,binary-tree,2,O(phi^n),medium,"n: int, 0-10",991,True,,1500,150,True,430
+rf-00248,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1950,True,,1200,120,True,447
+rf-00249,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2454,False,,1500,800,True,412
+rf-00250,linear,1,O(n),medium,"n: int, 0-50",1859,False,,1200,300,True,425
+rf-00251,tail,1,O(n),high,"n: int, 0-250",2005,False,,1200,150,True,428
+rf-00252,binary-tree,2,O(phi^n),medium,"n: int, 0-14",912,True,,1200,280,True,373
+rf-00253,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",1162,True,,1200,180,True,443
+rf-00254,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",2895,True,,1200,120,True,403
+rf-00255,linear,1,O(n),high,"n: int, 0-120",2162,False,,1200,150,True,378
+rf-00256,tail,1,O(n),high,"n: int, 0-250",2034,False,,1200,150,True,383
