@@ -118,6 +118,36 @@ fig.tight_layout()
 fig.savefig(os.path.join(OUT_DIR, "actual_vs_predicted_scatter.png"))
 plt.close(fig)
 
+# ---- Figure 1b: sorted-by-actual line chart, actual + predicted both as lines ----
+# Rank tasks by actual cost ascending -- actual then draws as a smooth rising line,
+# and predicted (plotted in the same task order) makes it visually obvious it
+# never tracks the rise: it just wanders between two flat bands.
+sorted_df = df.sort_values("actual_total_tokens").reset_index(drop=True)
+rank = np.arange(len(sorted_df))
+
+fig3, ax3 = plt.subplots(figsize=(9, 6.4), dpi=180)
+ax3.plot(rank, sorted_df["actual_total_tokens"], color=BLUE, linewidth=2.0,
+         label="actual total tokens (measured)")
+ax3.plot(rank, sorted_df["predicted_tokens"], color="#c2491d", linewidth=1.2,
+         alpha=0.85, label="predicted tokens (LLM guess, no execution)")
+
+ax3.set_xlabel("tasks, ranked by actual cost (ascending)")
+ax3.set_ylabel("tokens")
+ax3.set_title(
+    f"Sorted by real cost: the LLM's guess never rises to meet it\n"
+    f"n={len(df)} tasks  \u2014  actual ranges 351\u20133950 tokens\n"
+    f"guesses stay pinned to 1200/1500  (Pearson r = {pear_r:.2f})",
+    fontsize=11.5, color=INK, loc="left"
+)
+leg3 = ax3.legend(frameon=True, loc="upper left", fontsize=9, labelcolor=INK,
+                   facecolor=GROUND, edgecolor=HAIR, framealpha=0.95)
+leg3.get_frame().set_linewidth(0.8)
+for spine in ["top", "right"]:
+    ax3.spines[spine].set_visible(False)
+fig3.tight_layout()
+fig3.savefig(os.path.join(OUT_DIR, "actual_vs_predicted_sorted_line.png"))
+plt.close(fig3)
+
 # ---- Figure 2: correlation matrix heatmap ----
 num_cols = {
     "actual_tokens": df["actual_total_tokens"],
@@ -155,4 +185,4 @@ fig2.savefig(os.path.join(OUT_DIR, "correlation_matrix.png"))
 plt.close(fig2)
 
 corr_df.to_csv(os.path.join(OUT_DIR, "correlation_matrix.csv"))
-print("\nsaved to analysis_output/: actual_vs_predicted_scatter.png, correlation_matrix.png, correlation_matrix.csv")
+print("\nsaved to analysis_output/: actual_vs_predicted_scatter.png, actual_vs_predicted_sorted_line.png, correlation_matrix.png, correlation_matrix.csv")
