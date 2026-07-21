@@ -153,3 +153,104 @@
 {"task_id": "rf-00153", "iterations_attempted": 4, "iterations_to_converge": 4, "total_tokens": 2634, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
 {"task_id": "rf-00154", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2901, "converged": false}
 {"task_id": "rf-00155", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2619, "converged": false}
+{"task_id": "rf-00156", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1908, "converged": false}
+{"task_id": "rf-00157", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 944, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00158", "iterations_attempted": 4, "iterations_to_converge": 4, "total_tokens": 2224, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00159", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2718, "converged": false}
+{"task_id": "rf-00160", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2248, "converged": false}
+{"task_id": "rf-00161", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 960, "converged": true, "mutation_caught": 2, "mutation_total": 2, "mutation_score": "2/2"}
+{"task_id": "rf-00162", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 797, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00163", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2486, "converged": false}
+{"task_id": "rf-00164", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2557, "converged": false}
+{"task_id": "rf-00165", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2640, "converged": false}
+{"task_id": "rf-00166", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2015, "converged": false}
+{"task_id": "rf-00167", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1974, "converged": false}
+{"task_id": "rf-00168", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2401, "converged": false}
+{"task_id": "rf-00169", "iterations_attempted": 4, "iterations_to_converge": 4, "total_tokens": 3259, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00170", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1559, "converged": false}
+{"task_id": "rf-00171", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2035, "converged": false}
+{"task_id": "rf-00172", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 927, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00173", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2633, "converged": false}
+{"task_id": "rf-00174", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2736, "converged": false}
+{"task_id": "rf-00175", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2437, "converged": false}
+{"task_id": "rf-00176", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2620, "converged": false}
+{"task_id": "rf-00177", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 985, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00178", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 1188, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00179", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2605, "converged": false}
+{"task_id": "rf-00180", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2057, "converged": false}
+{"task_id": "rf-00181", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1923, "converged": false}
+{"task_id": "rf-00182", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2026, "converged": false}
+{"task_id": "rf-00183", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2398, "converged": false}
+{"task_id": "rf-00184", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2576, "converged": false}
+{"task_id": "rf-00185", "iterations_attempted": 1, "iterations_to_converge": 1, "total_tokens": 351, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00186", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2017, "converged": false}
+{"task_id": "rf-00187", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 898, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00188", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2245, "converged": false}
+{"task_id": "rf-00189", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 3231, "converged": false}
+{"task_id": "rf-00190", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2099, "converged": false}
+{"task_id": "rf-00191", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2287, "converged": false}
+{"task_id": "rf-00192", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 946, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00193", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2250, "converged": false}
+{"task_id": "rf-00194", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1999, "converged": false}
+{"task_id": "rf-00195", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2048, "converged": false}
+{"task_id": "rf-00196", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1982, "converged": false}
+{"task_id": "rf-00197", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 987, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00198", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 964, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00199", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2926, "converged": false}
+{"task_id": "rf-00200", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1933, "converged": false}
+{"task_id": "rf-00201", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1794, "converged": false}
+{"task_id": "rf-00202", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 934, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00203", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2735, "converged": false}
+{"task_id": "rf-00204", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 3247, "converged": false}
+{"task_id": "rf-00205", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1776, "converged": false}
+{"task_id": "rf-00206", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1951, "converged": false}
+{"task_id": "rf-00207", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1947, "converged": false}
+{"task_id": "rf-00208", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2924, "converged": false}
+{"task_id": "rf-00209", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2648, "converged": false}
+{"task_id": "rf-00210", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2057, "converged": false}
+{"task_id": "rf-00211", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2041, "converged": false}
+{"task_id": "rf-00212", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 1080, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00213", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 1074, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00214", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 3663, "converged": false}
+{"task_id": "rf-00215", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1880, "converged": false}
+{"task_id": "rf-00216", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1956, "converged": false}
+{"task_id": "rf-00217", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 991, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00218", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1790, "converged": false}
+{"task_id": "rf-00219", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 3950, "converged": false}
+{"task_id": "rf-00220", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2735, "converged": false}
+{"task_id": "rf-00221", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1919, "converged": false}
+{"task_id": "rf-00222", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 977, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00223", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 1021, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00224", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2875, "converged": false}
+{"task_id": "rf-00225", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2104, "converged": false}
+{"task_id": "rf-00226", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1893, "converged": false}
+{"task_id": "rf-00227", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 989, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00228", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2264, "converged": false}
+{"task_id": "rf-00229", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2972, "converged": false}
+{"task_id": "rf-00230", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1882, "converged": false}
+{"task_id": "rf-00231", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2034, "converged": false}
+{"task_id": "rf-00232", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 910, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00233", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 1005, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00234", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 3259, "converged": false}
+{"task_id": "rf-00235", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1912, "converged": false}
+{"task_id": "rf-00236", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1951, "converged": false}
+{"task_id": "rf-00237", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 797, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00238", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 958, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00239", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2394, "converged": false}
+{"task_id": "rf-00240", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2571, "converged": false}
+{"task_id": "rf-00241", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1969, "converged": false}
+{"task_id": "rf-00242", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 948, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00243", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 1173, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00244", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 3139, "converged": false}
+{"task_id": "rf-00245", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2099, "converged": false}
+{"task_id": "rf-00246", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1787, "converged": false}
+{"task_id": "rf-00247", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 991, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00248", "iterations_attempted": 3, "iterations_to_converge": 3, "total_tokens": 1950, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00249", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2454, "converged": false}
+{"task_id": "rf-00250", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 1859, "converged": false}
+{"task_id": "rf-00251", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2005, "converged": false}
+{"task_id": "rf-00252", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 912, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00253", "iterations_attempted": 2, "iterations_to_converge": 2, "total_tokens": 1162, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00254", "iterations_attempted": 4, "iterations_to_converge": 4, "total_tokens": 2895, "converged": true, "mutation_caught": 3, "mutation_total": 3, "mutation_score": "3/3"}
+{"task_id": "rf-00255", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2162, "converged": false}
+{"task_id": "rf-00256", "iterations_attempted": 4, "iterations_to_converge": null, "total_tokens": 2034, "converged": false}

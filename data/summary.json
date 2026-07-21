@@ -1,0 +1,7 @@
+{
+  "total_tasks": 256,
+  "converged_tasks": 79,
+  "total_tokens": 485790,
+  "wall_clock_s": 1801.6,
+  "budget_seconds": 1800
+}

@@ -1,0 +1,257 @@
+task_id,function_name,recursion_pattern,branching_factor,expected_big_o,difficulty_tier,input_domain,iterations_attempted,iterations_to_converge,converged,total_tokens,mutation_caught,mutation_total,mutation_score,reviewer_claimed_gap,reviewer_valid_claim,reviewer_gap_confirmed,reviewer_tokens
+rf-00001,f_00001,tail,1,O(n),medium,"n: int, 0-50",4,,False,2034,,,,,,,
+rf-00002,f_00002,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,945,3,3,3/3,True,True,True,606
+rf-00003,f_00003,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,1715,,,,,,,
+rf-00004,f_00004,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,2684,,,,,,,
+rf-00005,f_00005,linear,1,O(n),high,"n: int, 0-120",4,,False,2245,,,,,,,
+rf-00006,f_00006,tail,1,O(n),high,"n: int, 0-120",4,,False,2027,,,,,,,
+rf-00007,f_00007,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,993,3,3,3/3,True,False,False,534
+rf-00008,f_00008,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",4,,False,1746,,,,,,,
+rf-00009,f_00009,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2432,,,,,,,
+rf-00010,f_00010,linear,1,O(n),high,"n: int, 0-250",4,,False,1609,,,,,,,
+rf-00011,f_00011,tail,1,O(n),high,"n: int, 0-120",4,,False,2034,,,,,,,
+rf-00012,f_00012,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,1080,3,3,3/3,True,False,False,588
+rf-00013,f_00013,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2988,,,,,,,
+rf-00014,f_00014,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,1898,,,,,,,
+rf-00015,f_00015,linear,1,O(n),medium,"n: int, 0-50",4,,False,2300,,,,,,,
+rf-00016,f_00016,tail,1,O(n),high,"n: int, 0-120",4,,False,2012,,,,,,,
+rf-00017,f_00017,binary-tree,2,O(phi^n),medium,"n: int, 0-14",4,,False,1976,,,,,,,
+rf-00018,f_00018,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2237,,,,,,,
+rf-00019,f_00019,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2500,,,,,,,
+rf-00020,f_00020,linear,1,O(n),medium,"n: int, 0-50",4,,False,2016,,,,,,,
+rf-00021,f_00021,tail,1,O(n),high,"n: int, 0-250",4,,False,1794,,,,,,,
+rf-00022,f_00022,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,1078,3,3,3/3,True,True,False,512
+rf-00023,f_00023,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,1047,3,3,3/3,True,True,False,571
+rf-00024,f_00024,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,3567,,,,,,,
+rf-00025,f_00025,linear,1,O(n),medium,"n: int, 0-50",4,,False,1565,,,,,,,
+rf-00026,f_00026,tail,1,O(n),medium,"n: int, 0-50",4,,False,2041,,,,,,,
+rf-00027,f_00027,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,975,3,3,3/3,True,True,True,525
+rf-00028,f_00028,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,1047,3,3,3/3,True,True,False,571
+rf-00029,f_00029,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2,2,True,1192,3,3,3/3,True,True,False,663
+rf-00030,f_00030,linear,1,O(n),medium,"n: int, 0-50",4,,False,2114,,,,,,,
+rf-00031,f_00031,tail,1,O(n),high,"n: int, 0-250",4,,False,2015,,,,,,,
+rf-00032,f_00032,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,927,3,3,3/3,True,True,True,584
+rf-00033,f_00033,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",4,,False,2483,,,,,,,
+rf-00034,f_00034,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,4,True,2885,3,3,3/3,True,True,False,664
+rf-00035,f_00035,linear,1,O(n),high,"n: int, 0-250",4,,False,2048,,,,,,,
+rf-00036,f_00036,tail,1,O(n),high,"n: int, 0-120",4,,False,1996,,,,,,,
+rf-00037,f_00037,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,989,3,3,3/3,True,True,True,543
+rf-00038,f_00038,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2,2,True,824,3,3,3/3,True,True,False,523
+rf-00039,f_00039,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2500,,,,,,,
+rf-00040,f_00040,linear,1,O(n),high,"n: int, 0-120",2,2,True,876,3,3,3/3,True,True,False,429
+rf-00041,f_00041,tail,1,O(n),high,"n: int, 0-120",4,,False,2034,,,,,,,
+rf-00042,f_00042,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,942,3,3,3/3,True,True,True,616
+rf-00043,f_00043,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",4,4,True,2108,3,3,3/3,True,True,False,617
+rf-00044,f_00044,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2285,,,,,,,
+rf-00045,f_00045,linear,1,O(n),high,"n: int, 0-250",2,2,True,814,3,3,3/3,True,True,False,422
+rf-00046,f_00046,tail,1,O(n),high,"n: int, 0-120",4,,False,1951,,,,,,,
+rf-00047,f_00047,binary-tree,2,O(phi^n),medium,"n: int, 0-10",3,3,True,1438,3,3,3/3,True,True,True,587
+rf-00048,f_00048,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,1724,,,,,,,
+rf-00049,f_00049,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,3224,,,,,,,
+rf-00050,f_00050,linear,1,O(n),high,"n: int, 0-120",4,,False,2064,,,,,,,
+rf-00051,f_00051,tail,1,O(n),medium,"n: int, 0-50",4,,False,2032,,,,,,,
+rf-00052,f_00052,binary-tree,2,O(phi^n),medium,"n: int, 0-10",3,3,True,1469,3,3,3/3,True,True,True,590
+rf-00053,f_00053,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,1010,3,3,3/3,True,False,False,658
+rf-00054,f_00054,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2,2,True,1285,3,3,3/3,True,True,False,663
+rf-00055,f_00055,linear,1,O(n),medium,"n: int, 0-50",4,,False,2109,,,,,,,
+rf-00056,f_00056,tail,1,O(n),medium,"n: int, 0-50",4,,False,1977,,,,,,,
+rf-00057,f_00057,binary-tree,2,O(phi^n),high,"n: int, 0-18",4,,False,1706,,,,,,,
+rf-00058,f_00058,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,1691,,,,,,,
+rf-00059,f_00059,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2420,,,,,,,
+rf-00060,f_00060,linear,1,O(n),medium,"n: int, 0-50",4,,False,1582,,,,,,,
+rf-00061,f_00061,tail,1,O(n),high,"n: int, 0-250",4,,False,2083,,,,,,,
+rf-00062,f_00062,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,993,3,3,3/3,True,False,False,534
+rf-00063,f_00063,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,2453,,,,,,,
+rf-00064,f_00064,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2,2,True,1192,3,3,3/3,True,True,False,663
+rf-00065,f_00065,linear,1,O(n),high,"n: int, 0-250",4,,False,1997,,,,,,,
+rf-00066,f_00066,tail,1,O(n),high,"n: int, 0-120",4,,False,2041,,,,,,,
+rf-00067,f_00067,binary-tree,2,O(phi^n),medium,"n: int, 0-10",4,,False,2000,,,,,,,
+rf-00068,f_00068,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,1122,3,3,3/3,True,True,False,641
+rf-00069,f_00069,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,2575,,,,,,,
+rf-00070,f_00070,linear,1,O(n),high,"n: int, 0-120",4,,False,2060,,,,,,,
+rf-00071,f_00071,tail,1,O(n),medium,"n: int, 0-50",4,,False,2041,,,,,,,
+rf-00072,f_00072,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,898,3,3,3/3,True,True,True,552
+rf-00073,f_00073,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,1209,3,3,3/3,True,True,False,564
+rf-00074,f_00074,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2073,,,,,,,
+rf-00075,f_00075,linear,1,O(n),high,"n: int, 0-120",4,,False,1872,,,,,,,
+rf-00076,f_00076,tail,1,O(n),high,"n: int, 0-120",4,,False,1908,,,,,,,
+rf-00077,f_00077,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,1080,3,3,3/3,True,True,False,513
+rf-00078,f_00078,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,2570,,,,,,,
+rf-00079,f_00079,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",2,2,True,1192,3,3,3/3,True,True,False,662
+rf-00080,f_00080,linear,1,O(n),high,"n: int, 0-120",4,,False,1990,,,,,,,
+rf-00081,f_00081,tail,1,O(n),high,"n: int, 0-120",4,,False,2041,,,,,,,
+rf-00082,f_00082,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,895,3,3,3/3,True,True,True,571
+rf-00083,f_00083,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2,2,True,1061,3,3,3/3,True,True,False,647
+rf-00084,f_00084,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2284,,,,,,,
+rf-00085,f_00085,linear,1,O(n),high,"n: int, 0-250",4,,False,2094,,,,,,,
+rf-00086,f_00086,tail,1,O(n),high,"n: int, 0-250",4,,False,2042,,,,,,,
+rf-00087,f_00087,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,989,3,3,3/3,True,True,True,544
+rf-00088,f_00088,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2,2,True,1035,3,3,3/3,True,True,False,615
+rf-00089,f_00089,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,2339,,,,,,,
+rf-00090,f_00090,linear,1,O(n),high,"n: int, 0-120",4,,False,2232,,,,,,,
+rf-00091,f_00091,tail,1,O(n),high,"n: int, 0-120",4,,False,2004,,,,,,,
+rf-00092,f_00092,binary-tree,2,O(phi^n),high,"n: int, 0-18",4,,False,2049,,,,,,,
+rf-00093,f_00093,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2804,,,,,,,
+rf-00094,f_00094,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2543,,,,,,,
+rf-00095,f_00095,linear,1,O(n),medium,"n: int, 0-50",4,,False,2148,,,,,,,
+rf-00096,f_00096,tail,1,O(n),high,"n: int, 0-250",4,,False,2279,,,,,,,
+rf-00097,f_00097,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,991,3,3,3/3,True,False,False,532
+rf-00098,f_00098,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,2047,,,,,,,
+rf-00099,f_00099,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,2422,,,,,,,
+rf-00100,f_00100,linear,1,O(n),medium,"n: int, 0-50",4,,False,2183,,,,,,,
+rf-00101,f_00101,tail,1,O(n),high,"n: int, 0-120",4,,False,2009,,,,,,,
+rf-00102,f_00102,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,993,3,3,3/3,True,True,True,573
+rf-00103,f_00103,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2126,,,,,,,
+rf-00104,f_00104,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,2865,,,,,,,
+rf-00105,f_00105,linear,1,O(n),medium,"n: int, 0-50",4,,False,1974,,,,,,,
+rf-00106,f_00106,tail,1,O(n),high,"n: int, 0-120",4,,False,1944,,,,,,,
+rf-00107,f_00107,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,895,3,3,3/3,True,True,True,557
+rf-00108,f_00108,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,1896,,,,,,,
+rf-00109,f_00109,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,2374,,,,,,,
+rf-00110,f_00110,linear,1,O(n),high,"n: int, 0-120",4,,False,2077,,,,,,,
+rf-00111,f_00111,tail,1,O(n),medium,"n: int, 0-50",4,,False,2041,,,,,,,
+rf-00112,f_00112,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,1039,3,3,3/3,True,True,False,632
+rf-00113,f_00113,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,1600,,,,,,,
+rf-00114,f_00114,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2298,,,,,,,
+rf-00115,f_00115,linear,1,O(n),high,"n: int, 0-120",4,,False,2054,,,,,,,
+rf-00116,f_00116,tail,1,O(n),high,"n: int, 0-250",4,,False,2030,,,,,,,
+rf-00117,f_00117,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,912,3,3,3/3,True,True,True,564
+rf-00118,f_00118,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2,2,True,942,3,3,3/3,True,True,False,539
+rf-00119,f_00119,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2570,,,,,,,
+rf-00120,f_00120,linear,1,O(n),high,"n: int, 0-250",4,,False,2086,,,,,,,
+rf-00121,f_00121,tail,1,O(n),high,"n: int, 0-250",4,,False,2298,,,,,,,
+rf-00122,f_00122,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,930,3,3,3/3,True,True,False,526
+rf-00123,f_00123,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2261,,,,,,,
+rf-00124,f_00124,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",2,2,True,1192,3,3,3/3,True,True,False,662
+rf-00125,f_00125,linear,1,O(n),medium,"n: int, 0-50",4,,False,2332,,,,,,,
+rf-00126,f_00126,tail,1,O(n),high,"n: int, 0-120",4,,False,1996,,,,,,,
+rf-00127,f_00127,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,978,3,3,3/3,True,True,False,555
+rf-00128,f_00128,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,1644,,,,,,,
+rf-00129,f_00129,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2759,,,,,,,
+rf-00130,f_00130,linear,1,O(n),high,"n: int, 0-250",4,,False,2546,,,,,,,
+rf-00131,f_00131,tail,1,O(n),medium,"n: int, 0-50",4,,False,2028,,,,,,,
+rf-00132,f_00132,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,979,3,3,3/3,True,True,False,526
+rf-00133,f_00133,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,1969,,,,,,,
+rf-00134,f_00134,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2218,,,,,,,
+rf-00135,f_00135,linear,1,O(n),high,"n: int, 0-250",4,,False,2018,,,,,,,
+rf-00136,f_00136,tail,1,O(n),medium,"n: int, 0-50",4,,False,2015,,,,,,,
+rf-00137,f_00137,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,1063,3,3,3/3,True,True,False,660
+rf-00138,f_00138,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2419,,,,,,,
+rf-00139,f_00139,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2700,,,,,,,
+rf-00140,f_00140,linear,1,O(n),high,"n: int, 0-120",4,,False,1995,,,,,,,
+rf-00141,f_00141,tail,1,O(n),high,"n: int, 0-120",4,,False,2034,,,,,,,
+rf-00142,f_00142,binary-tree,2,O(phi^n),medium,"n: int, 0-10",4,,False,2007,,,,,,,
+rf-00143,f_00143,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2,2,True,1092,3,3,3/3,True,True,False,629
+rf-00144,f_00144,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,3628,,,,,,,
+rf-00145,f_00145,linear,1,O(n),medium,"n: int, 0-50",2,2,True,1014,3,3,3/3,True,True,False,495
+rf-00146,f_00146,tail,1,O(n),high,"n: int, 0-250",4,,False,2263,,,,,,,
+rf-00147,f_00147,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,956,3,3,3/3,True,True,False,547
+rf-00148,f_00148,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,1040,3,3,3/3,True,False,False,672
+rf-00149,f_00149,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2092,,,,,,,
+rf-00150,f_00150,linear,1,O(n),medium,"n: int, 0-50",4,,False,2086,,,,,,,
+rf-00151,f_00151,tail,1,O(n),medium,"n: int, 0-50",4,,False,2034,,,,,,,
+rf-00152,f_00152,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,797,3,3,3/3,True,True,True,487
+rf-00153,f_00153,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,4,True,2634,3,3,3/3,True,True,False,724
+rf-00154,f_00154,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2901,,,,,,,
+rf-00155,f_00155,linear,1,O(n),medium,"n: int, 0-50",4,,False,2619,,,,,,,
+rf-00156,f_00156,tail,1,O(n),high,"n: int, 0-250",4,,False,1908,,,,,,,
+rf-00157,f_00157,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,944,3,3,3/3,True,False,False,592
+rf-00158,f_00158,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,4,True,2224,3,3,3/3,True,False,False,568
+rf-00159,f_00159,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2718,,,,,,,
+rf-00160,f_00160,linear,1,O(n),high,"n: int, 0-120",4,,False,2248,,,,,,,
+rf-00161,f_00161,tail,1,O(n),high,"n: int, 0-250",2,2,True,960,2,2,2/2,True,True,False,451
+rf-00162,f_00162,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,797,3,3,3/3,True,True,True,509
+rf-00163,f_00163,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,2486,,,,,,,
+rf-00164,f_00164,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2557,,,,,,,
+rf-00165,f_00165,linear,1,O(n),medium,"n: int, 0-50",4,,False,2640,,,,,,,
+rf-00166,f_00166,tail,1,O(n),high,"n: int, 0-250",4,,False,2015,,,,,,,
+rf-00167,f_00167,binary-tree,2,O(phi^n),high,"n: int, 0-18",4,,False,1974,,,,,,,
+rf-00168,f_00168,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",4,,False,2401,,,,,,,
+rf-00169,f_00169,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,4,True,3259,3,3,3/3,True,True,False,825
+rf-00170,f_00170,linear,1,O(n),medium,"n: int, 0-50",4,,False,1559,,,,,,,
+rf-00171,f_00171,tail,1,O(n),high,"n: int, 0-250",4,,False,2035,,,,,,,
+rf-00172,f_00172,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,927,3,3,3/3,True,True,True,584
+rf-00173,f_00173,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2633,,,,,,,
+rf-00174,f_00174,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2736,,,,,,,
+rf-00175,f_00175,linear,1,O(n),high,"n: int, 0-120",4,,False,2437,,,,,,,
+rf-00176,f_00176,tail,1,O(n),high,"n: int, 0-250",4,,False,2620,,,,,,,
+rf-00177,f_00177,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,985,3,3,3/3,True,True,True,665
+rf-00178,f_00178,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2,2,True,1188,3,3,3/3,True,True,False,580
+rf-00179,f_00179,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2605,,,,,,,
+rf-00180,f_00180,linear,1,O(n),high,"n: int, 0-120",4,,False,2057,,,,,,,
+rf-00181,f_00181,tail,1,O(n),high,"n: int, 0-120",4,,False,1923,,,,,,,
+rf-00182,f_00182,binary-tree,2,O(phi^n),high,"n: int, 0-18",4,,False,2026,,,,,,,
+rf-00183,f_00183,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2398,,,,,,,
+rf-00184,f_00184,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2576,,,,,,,
+rf-00185,f_00185,linear,1,O(n),high,"n: int, 0-120",1,1,True,351,3,3,3/3,True,True,False,433
+rf-00186,f_00186,tail,1,O(n),high,"n: int, 0-120",4,,False,2017,,,,,,,
+rf-00187,f_00187,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,898,3,3,3/3,True,True,True,534
+rf-00188,f_00188,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",4,,False,2245,,,,,,,
+rf-00189,f_00189,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,3231,,,,,,,
+rf-00190,f_00190,linear,1,O(n),high,"n: int, 0-120",4,,False,2099,,,,,,,
+rf-00191,f_00191,tail,1,O(n),high,"n: int, 0-120",4,,False,2287,,,,,,,
+rf-00192,f_00192,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,946,3,3,3/3,True,True,False,585
+rf-00193,f_00193,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",4,,False,2250,,,,,,,
+rf-00194,f_00194,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,1999,,,,,,,
+rf-00195,f_00195,linear,1,O(n),high,"n: int, 0-120",4,,False,2048,,,,,,,
+rf-00196,f_00196,tail,1,O(n),medium,"n: int, 0-50",4,,False,1982,,,,,,,
+rf-00197,f_00197,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,987,3,3,3/3,True,True,True,551
+rf-00198,f_00198,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,964,3,3,3/3,True,True,False,560
+rf-00199,f_00199,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2926,,,,,,,
+rf-00200,f_00200,linear,1,O(n),high,"n: int, 0-120",4,,False,1933,,,,,,,
+rf-00201,f_00201,tail,1,O(n),medium,"n: int, 0-50",4,,False,1794,,,,,,,
+rf-00202,f_00202,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,934,3,3,3/3,True,True,False,543
+rf-00203,f_00203,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,2735,,,,,,,
+rf-00204,f_00204,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,3247,,,,,,,
+rf-00205,f_00205,linear,1,O(n),high,"n: int, 0-250",4,,False,1776,,,,,,,
+rf-00206,f_00206,tail,1,O(n),high,"n: int, 0-120",4,,False,1951,,,,,,,
+rf-00207,f_00207,binary-tree,2,O(phi^n),high,"n: int, 0-18",4,,False,1947,,,,,,,
+rf-00208,f_00208,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,2924,,,,,,,
+rf-00209,f_00209,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2648,,,,,,,
+rf-00210,f_00210,linear,1,O(n),medium,"n: int, 0-50",4,,False,2057,,,,,,,
+rf-00211,f_00211,tail,1,O(n),high,"n: int, 0-120",4,,False,2041,,,,,,,
+rf-00212,f_00212,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,1080,3,3,3/3,True,False,False,586
+rf-00213,f_00213,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2,2,True,1074,3,3,3/3,True,True,False,597
+rf-00214,f_00214,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,3663,,,,,,,
+rf-00215,f_00215,linear,1,O(n),high,"n: int, 0-120",4,,False,1880,,,,,,,
+rf-00216,f_00216,tail,1,O(n),high,"n: int, 0-250",4,,False,1956,,,,,,,
+rf-00217,f_00217,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,991,3,3,3/3,True,True,True,536
+rf-00218,f_00218,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",4,,False,1790,,,,,,,
+rf-00219,f_00219,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,3950,,,,,,,
+rf-00220,f_00220,linear,1,O(n),high,"n: int, 0-120",4,,False,2735,,,,,,,
+rf-00221,f_00221,tail,1,O(n),medium,"n: int, 0-50",4,,False,1919,,,,,,,
+rf-00222,f_00222,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,977,3,3,3/3,True,True,True,514
+rf-00223,f_00223,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2,2,True,1021,3,3,3/3,True,False,False,637
+rf-00224,f_00224,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2875,,,,,,,
+rf-00225,f_00225,linear,1,O(n),high,"n: int, 0-120",4,,False,2104,,,,,,,
+rf-00226,f_00226,tail,1,O(n),high,"n: int, 0-120",4,,False,1893,,,,,,,
+rf-00227,f_00227,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,989,3,3,3/3,True,True,True,529
+rf-00228,f_00228,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",4,,False,2264,,,,,,,
+rf-00229,f_00229,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2972,,,,,,,
+rf-00230,f_00230,linear,1,O(n),high,"n: int, 0-250",4,,False,1882,,,,,,,
+rf-00231,f_00231,tail,1,O(n),high,"n: int, 0-120",4,,False,2034,,,,,,,
+rf-00232,f_00232,binary-tree,2,O(phi^n),high,"n: int, 0-18",2,2,True,910,3,3,3/3,True,True,False,528
+rf-00233,f_00233,triple-branch,3,O(3^n)-ish,high,"n: int, 0-8",2,2,True,1005,3,3,3/3,True,False,False,637
+rf-00234,f_00234,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,3259,,,,,,,
+rf-00235,f_00235,linear,1,O(n),high,"n: int, 0-250",4,,False,1912,,,,,,,
+rf-00236,f_00236,tail,1,O(n),high,"n: int, 0-250",4,,False,1951,,,,,,,
+rf-00237,f_00237,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,797,3,3,3/3,True,True,True,509
+rf-00238,f_00238,triple-branch,3,O(3^n)-ish,high,"n: int, 0-6",2,2,True,958,3,3,3/3,True,True,False,539
+rf-00239,f_00239,mixed-parity,2,O(phi^n) worst-case,medium,"n: int, 0-10",4,,False,2394,,,,,,,
+rf-00240,f_00240,linear,1,O(n),high,"n: int, 0-250",4,,False,2571,,,,,,,
+rf-00241,f_00241,tail,1,O(n),high,"n: int, 0-250",4,,False,1969,,,,,,,
+rf-00242,f_00242,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,948,3,3,3/3,True,True,True,589
+rf-00243,f_00243,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2,2,True,1173,3,3,3/3,True,True,True,592
+rf-00244,f_00244,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,,False,3139,,,,,,,
+rf-00245,f_00245,linear,1,O(n),high,"n: int, 0-250",4,,False,2099,,,,,,,
+rf-00246,f_00246,tail,1,O(n),medium,"n: int, 0-50",4,,False,1787,,,,,,,
+rf-00247,f_00247,binary-tree,2,O(phi^n),medium,"n: int, 0-10",2,2,True,991,3,3,3/3,True,True,True,529
+rf-00248,f_00248,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",3,3,True,1950,3,3,3/3,True,True,False,712
+rf-00249,f_00249,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-20",4,,False,2454,,,,,,,
+rf-00250,f_00250,linear,1,O(n),medium,"n: int, 0-50",4,,False,1859,,,,,,,
+rf-00251,f_00251,tail,1,O(n),high,"n: int, 0-250",4,,False,2005,,,,,,,
+rf-00252,f_00252,binary-tree,2,O(phi^n),medium,"n: int, 0-14",2,2,True,912,3,3,3/3,True,True,False,508
+rf-00253,f_00253,triple-branch,3,O(3^n)-ish,high,"n: int, 0-9",2,2,True,1162,3,3,3/3,True,True,False,529
+rf-00254,f_00254,mixed-parity,2,O(phi^n) worst-case,high,"n: int, 0-16",4,4,True,2895,3,3,3/3,True,True,False,665
+rf-00255,f_00255,linear,1,O(n),high,"n: int, 0-120",4,,False,2162,,,,,,,
+rf-00256,f_00256,tail,1,O(n),high,"n: int, 0-250",4,,False,2034,,,,,,,
