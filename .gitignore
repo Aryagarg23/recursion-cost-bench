@@ -8,3 +8,8 @@ __pycache__/
 *.bak
 .venv/
 analysis_output/
+
+# graphify derived artifacts
+graphify-out/
+.graphify_analysis.json
+.graphify_labels.json
